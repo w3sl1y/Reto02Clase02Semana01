@@ -1,4 +1,4 @@
-let info = { 
+let {name, email, ...rest} = { 
     name: "Wesley",
     email: "wesleysneyd@hotmail.com", 
     city: "Lima", 
@@ -6,9 +6,9 @@ let info = {
     country: "Perú",
 };
 
-let rest = {city: "Lima", state: "SF", country: "Perú"
+rest = {city: "Lima", state: "SF", country: "Perú"
 };
 
-let {name, email, city, state, country} = info;
+console.log(user)
 
-console.log(info)
+console.log(rest)
